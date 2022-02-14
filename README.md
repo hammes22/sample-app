@@ -1,26 +1,29 @@
-# Aplicativo de amostra do Tutorial Ruby on Rails
-Este é o aplicativo de amostra para [*Ruby on Rails
-Tutorial: Learn Web Development with Rails*](https://
-www.railstutorial.org/) (6ª edição) de [Michael Hartl](https://www.michaelhartl. com/).
-## Licença
-Todo o código-fonte no [Tutorial Ruby on Rails](https://www.railstutorial.org/) está disponível em conjunto sob a Licença
-MIT e a Licença Beerware. Consulte [LICENSE.md](LICENSE.md) para obter detalhes.
-## Começando
-Para começar a usar o aplicativo, clone o repositório e instale as gems necessárias:
+# Ruby on Rails Tutorial sample application
+This is the sample application for
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](https://www.railstutorial.org/)
+(6th Edition)
+by [Michael Hartl](https://www.michaelhartl.com/).
+## License
+All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
+is available jointly under the MIT License and the Beerware License. See
+[LICENSE.md](LICENSE.md) for details.
+## Getting started
+To get started with the app, clone the repo and then install the needed gems:
 ```
-$ pacote instalar --sem produção
+$ bundle install --without production
 ```
-Em seguida, migre o banco de dados:
+Next, migrate the database:
 ```
 $ rails db:migrate
 ```
-Por fim, execute o conjunto de testes para verificar se tudo está funcionando corretamente:
+Finally, run the test suite to verify that everything is working correctly:
 ```
-$ teste de trilhos
+$ rails test
 ```
-Se o conjunto de testes for aprovado, você estará pronto para executar o aplicativo em um servidor local:
+If the test suite passes, you'll be ready to run the app in a local server:
 ```
-$ servidor Rails
+$ rails server
 ```
-Para obter mais informações, consulte o
-[*Tutorial Ruby on Rails* livro](https://www.railstutorial.org/book)
+For more information, see the
+[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
